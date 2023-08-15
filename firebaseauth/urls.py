@@ -10,4 +10,5 @@ urlpatterns = [
     path('algo/', views.login.MyView.as_view()),
     path('algoprotected/',views.login.ProtectedView.as_view()),
     path('user/<id>/',user),
+    path('name/<id>/',name),
 ]
